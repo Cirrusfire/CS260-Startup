@@ -16,7 +16,7 @@ Always wanted to plan a trip, but the upfront effort to actually plan the whole 
 
 ![Mock](mock-webpage.jpg)
 
-Example of what the destination rating page will look like.
+Example of what the destination rating page might look like.
 
 ### Key Features
 
