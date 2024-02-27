@@ -14,6 +14,58 @@
 - `<li>`: Defines a list item.
 - `<ol>`: Defines an ordered (numbered) list.
 
+### Flexbox Examples:
+- Basic Flex Container with Items:
+  ```html
+  <div style="display: flex;">
+      <div style="background-color: red; width: 100px; height: 100px;"></div>
+      <div style="background-color: blue; width: 100px; height: 100px;"></div>
+      <div style="background-color: green; width: 100px; height: 100px;"></div>
+  </div>
+  
+- Flex Container with Items Aligned Horizontally:
+  ```html
+  <div style="display: flex; justify-content: space-between;">
+    <div style="background-color: red; width: 100px; height: 100px;"></div>
+    <div style="background-color: blue; width: 100px; height: 100px;"></div>
+    <div style="background-color: green; width: 100px; height: 100px;"></div>
+  </div>
+
+- Flex Container with Items Aligned Vertically:
+  ```html
+  <div style="display: flex; flex-direction: column;">
+    <div style="background-color: red; width: 100px; height: 100px;"></div>
+    <div style="background-color: blue; width: 100px; height: 100px;"></div>
+    <div style="background-color: green; width: 100px; height: 100px;"></div>
+  </div>
+
+- Flex Container with Items Wrapped:
+  ```html
+  <div style="display: flex; flex-wrap: wrap;">
+    <div style="background-color: red; width: 100px; height: 100px;"></div>
+    <div style="background-color: blue; width: 100px; height: 100px;"></div>
+    <div style="background-color: green; width: 100px; height: 100px;"></div>
+  </div>
+
+- Flex Container with Items Justified and Aligned:
+  ```html
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div style="background-color: red; width: 100px; height: 100px;"></div>
+    <div style="background-color: blue; width: 100px; height: 150px;"></div>
+    <div style="background-color: green; width: 100px; height: 80px;"></div>
+  </div>
+
+- Flex Container with Items Ordered:
+  ```html
+  <div style="display: flex;">
+    <div style="background-color: red; width: 100px; height: 100px;"></div>
+    <div style="background-color: blue; width: 100px; height: 100px; order: 3;"></div>
+    <div style="background-color: green; width: 100px; height: 100px; order: 2;"></div>
+    <div style="background-color: yellow; width: 100px; height: 100px; order: 1;"></div>
+  </div>
+
+
+
 ## CSS (Cascading Style Sheets)
 - CSS is used to style the HTML elements, controlling their layout, appearance, and presentation.
 - Basic properties include styling attributes like color, font size, background color, margin, padding, etc.
@@ -22,9 +74,23 @@
 - Class selector: Targets elements with a specific class attribute.
 - ID selector: Targets a specific element with a unique ID attribute.
 
+#### Selectors Example:
+  ```CSS
+    /* Style for class header */
+  .header {
+      font-size: 24px;
+      color: blue;
+  }
+  
+  /* Style for ID header */
+  #header {
+      font-weight: bold;
+      text-decoration: underline;
+  }
+```
+
 ### Box Model:
-- Margin: Space outside an element.
-- Padding: Space inside an element's boundary.
+![CSS Box Model](https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif)
 
 ## JavaScript
 - JavaScript adds interactivity and dynamic behavior to web pages.
@@ -89,4 +155,3 @@
   const numbers = [1, 2, 3, 4, 5];
   const doubledNumbers = numbers.map(number => number * 2);
   console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
-- (put other javascript examples here)
