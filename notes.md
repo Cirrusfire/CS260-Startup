@@ -102,7 +102,7 @@
 - Asynchronous JavaScript includes Promises, async/await.
 - The DOM (Document Object Model) of a web page is a programming interface that represents the web page as a tree of objects, allowing JavaScript to access and manipulate the content and structure of the web page dynamically.
 - Fetch API is used to make HTTP requests.
-- JSON (JavaScript Object Notation) is a lightweight data interchange format.
+- JSON (JavaScript Object Notation) is a lightweight data interchange format used to transmit data between a server and a web application.
 
 ### JavaScript Examples:
 - Basic for loop:
