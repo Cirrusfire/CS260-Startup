@@ -100,7 +100,7 @@
 - Arrays store multiple values.
 - Higher-order functions (map, reduce, forEach, filter) operate on other functions.
 - Asynchronous JavaScript includes Promises, async/await.
-- The DOM (Document Object Model) represents the structure of an HTML document.
+- The DOM (Document Object Model) of a web page is a programming interface that represents the web page as a tree of objects, allowing JavaScript to access and manipulate the content and structure of the web page dynamically.
 - Fetch API is used to make HTTP requests.
 - JSON (JavaScript Object Notation) is a lightweight data interchange format.
 
@@ -155,3 +155,7 @@
   const numbers = [1, 2, 3, 4, 5];
   const doubledNumbers = numbers.map(number => number * 2);
   console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
+- Using Javascript to change the HTML of an element:
+  ```javascript
+  document.getElementById("myElement").innerHTML = "New content";
+
