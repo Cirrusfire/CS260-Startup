@@ -1,4 +1,4 @@
-# Web Development Midterm Study Guide
+# Web Development Notes
 
 ## HTML (Hypertext Markup Language)
 - HTML is the standard markup language for creating web pages.
